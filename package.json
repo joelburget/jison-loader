@@ -1,0 +1,28 @@
+{
+  "name": "jison-loader",
+  "version": "1.0.0",
+  "description": "jison loader module for webpack",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha -R spec"
+  },
+  "devDependencies": {
+    "jison": "^0.4.15",
+    "mocha": "^1.1.8",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelburget/jison-loader.git"
+  },
+  "keywords": [
+    "jison",
+    "parser",
+    "webpack",
+    "loader"
+  ],
+  "author": "Joel Burget",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelburget/jison-loader/issues"
+  },
+  "homepage": "https://github.com/joelburget/jison-loader"
+}
