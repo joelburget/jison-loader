@@ -6,8 +6,10 @@
     "test": "node node_modules/mocha/bin/mocha -R spec"
   },
   "devDependencies": {
-    "jison": "^0.4.15",
-    "mocha": "^1.1.8",
+    "mocha": "^1.1.8"
+  },
+  "dependencies": {
+    "jison": "^0.4.15"
   },
   "repository": {
     "type": "git",
