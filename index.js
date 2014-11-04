@@ -1,9 +1,8 @@
-var fs = require("fs");
 var jison = require("jison");
 
 module.exports = function(input) {
     this.cacheable();
 
-    var parser = new jison.Parser(bnf);
+    var parser = new jison.Generator(input);
     return parser.generate();
 };
