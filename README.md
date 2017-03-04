@@ -1,22 +1,24 @@
 # jison webpack loader
 
 ## Usage
-
-    var parser = require("jison!./grammar.jison");
-    var result = parser.parse(input);
+```js
+const parser = require("jison!./grammar.jison");
+const result = parser.parse(input);
+```
 
 ## webpack config
-
-    module.exports = {
-        module: {
-            loaders: [
-                {
-                    test: /\.jison$/,
-                    loader: "jison-loader"
-                }
-            ]
-        }
+```js
+module.exports = {
+    module: {
+        loaders: [
+            {
+                test: /\.jison$/,
+                loader: "jison-loader"
+            }
+        ]
     }
+}
+```
 
 ## License
 
